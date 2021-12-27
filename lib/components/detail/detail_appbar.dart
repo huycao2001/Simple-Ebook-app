@@ -1,5 +1,6 @@
 import 'package:ebook_app/constant.dart';
 import 'package:flutter/material.dart';
+import 'package:like_button/like_button.dart';
 
 
 class DetailAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -41,14 +42,22 @@ class DetailAppBar extends StatelessWidget implements PreferredSizeWidget {
           onTap: () {},
           splashColor: Colors.transparent,
           highlightColor: Colors.transparent,
-          child: Padding(
-            padding: EdgeInsets.only(right: spacer),
-            child: Icon(
-              Icons.share_outlined,
-              color: darkColor,
-              size: 20,
-            ),
-          ),
+          // child: Padding(
+          //   padding: EdgeInsets.only(right: spacer),
+          //   child: Icon(
+          //     Icons.share_outlined,
+          //     color: darkColor,
+          //     size: 20,
+          //   ),
+          // ),
+              child: Row(children: [
+                Icon(
+                  Icons.share_outlined
+                ),
+                SizedBox(width: 10),
+                LikeButton(),
+              ],
+              )
         ),
       ],
     );
