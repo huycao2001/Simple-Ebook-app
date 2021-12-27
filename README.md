@@ -1,16 +1,10 @@
-# ebook_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# A very simmple ebook app
+## About
+- This is a "simple" project Ebook app implemented with Flutter. 
+- This app has 2 main components :
+  - A main home screen which shows the interface of the app (the menu, the category list, the recenly addd section)
+  - A book detail screen which shows the book information when the user clicks to the book on the **Recently Added section.**
+## Reference :   
+- [Cookbook for Flutter](https://flutter.dev/docs/cookbook)
+- [Tutorial 1](https://www.youtube.com/watch?v=EpIqdz5tZOk&t=2s&ab_channel=ZahniarAdirahman)
+- [Tutorial 2](https://www.youtube.com/watch?v=ACdraZRANaU&t=177s&ab_channel=TheFlutterWay)
